@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yiicod\cron\commands;
+namespace hyperia\cron\commands;
 
 use yii\base\InvalidConfigException;
 

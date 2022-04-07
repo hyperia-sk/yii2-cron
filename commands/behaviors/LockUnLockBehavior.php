@@ -1,6 +1,6 @@
 <?php
 
-namespace yiicod\cron\commands\behaviors;
+namespace hyperia\cron\commands\behaviors;
 
 use Yii;
 use yii\base\Behavior;

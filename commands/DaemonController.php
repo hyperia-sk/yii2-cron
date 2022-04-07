@@ -1,19 +1,19 @@
 <?php
 
-namespace yiicod\cron\commands;
+namespace hyperia\cron\commands;
 
 use Yii;
 use yii\console\Controller;
 use yii\helpers\Console;
-use yiicod\cron\commands\exceptions\IsNotRunningException;
-use yiicod\cron\commands\exceptions\IsRunningException;
-use yiicod\cron\commands\traits\DaemonTrait;
+use hyperia\cron\commands\exceptions\IsNotRunningException;
+use hyperia\cron\commands\exceptions\IsRunningException;
+use hyperia\cron\commands\traits\DaemonTrait;
 
 /**
  * Class DaemonController
  * Daemon controller for console
  *
- * @package yiicod\cron\commands
+ * @package hyperia\cron\commands
  */
 abstract class DaemonController extends Controller
 {
