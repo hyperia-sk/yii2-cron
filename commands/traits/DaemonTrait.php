@@ -1,17 +1,17 @@
 <?php
 
-namespace yiicod\cron\commands\traits;
+namespace hyperia\cron\commands\traits;
 
 use Exception;
 use Yii;
-use yiicod\cron\commands\exceptions\IsNotRunningException;
-use yiicod\cron\commands\exceptions\IsRunningException;
-use yiicod\cron\commands\FileOutput;
+use hyperia\cron\commands\exceptions\IsNotRunningException;
+use hyperia\cron\commands\exceptions\IsRunningException;
+use hyperia\cron\commands\FileOutput;
 
 /**
  * Trait DaemonTrait
  *
- * @package yiicod\cron\commands\traits
+ * @package hyperia\cron\commands\traits
  */
 trait DaemonTrait
 {
